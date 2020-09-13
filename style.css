@@ -1,0 +1,52 @@
+body{
+    background-color: aquamarine;
+}
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+.main{
+    display: inline-flex;
+}
+
+
+h2{
+    color: red;
+    font-size: 4em;
+    background-color: snow;
+    border-radius: 40px;
+    
+}
+
+
+
+h1{
+    margin: 15px;
+    padding: 15px;
+    background-color: snow;
+    color: red;
+    font-size: 5em;
+    width: 80px;
+    border-radius: 20px;
+    border: red 2px solid ;
+}
+
+button{
+    margin: 3px;
+    padding: 15px;
+    width: 115px;
+    font-size: 2em;
+    border: snow 2px solid ;
+    background-color: red;
+    color: snow;
+    border-radius: 40px;
+    
+}
